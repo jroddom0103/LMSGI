@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "BDsms_mejora.dtd">
+<BDsms>
+    <sms>
+        <telefono>382 90 11 52</telefono>
+        <fecha>7/1/2024</fecha>
+        <hora>22:34</hora>
+        <mensaje>Hola</mensaje>
+    </sms>
+    <sms>
+        <telefono>712 49 77 24</telefono>
+        <fecha>8/1/2024</fecha>
+        <hora>7:12</hora>
+        <mensaje>¿Cómo estás?</mensaje>
+    </sms>
+    <sms>
+        <telefono>871 21 23 17</telefono>
+        <fecha>8/1/2024</fecha>
+        <hora>12:43</hora>
+        <mensaje>Adiós</mensaje>
+    </sms>
+
+</BDsms>

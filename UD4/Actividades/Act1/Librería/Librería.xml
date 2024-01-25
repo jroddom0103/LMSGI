@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "Librería.dtd">
+
+<root xmlns:ap1="PrimerApellido" xmlns:ap2="SegundoApellido">
+<biblioteca>
+
+    <libro id="1">
+        <autores>
+            <autor>
+                <ap1:apellido>Gullo</ap1:apellido>
+                <ap2:apellido>Omodeo</ap2:apellido>
+                <nombre>Juan Marcelo</nombre>
+            </autor>
+        </autores>
+        <titulo>Nada por lo que pedir perdón: la importancia del legado español frente a las atrocidades cometidas por los enemigos de España.</titulo>
+        <tematica>Historia</tematica>
+        <editorial>ESPASA LIBROS</editorial>
+        <fechaPublicacion>05/10/2022</fechaPublicacion>
+        <ISBN>9788467066654</ISBN>
+    </libro>
+
+    <libro id="2">
+        <autores>
+            <autor>
+                <ap1:apellido>Edwin</ap1:apellido>
+                <ap2:apellido>King</ap2:apellido>
+                <nombre>Stephen</nombre>
+            </autor>
+        </autores>
+        <titulo>It</titulo>
+        <temática>Terror</temática>
+        <editorial>Signet books</editorial>
+        <fechaPublicacion>15/09/2022</fechaPublicacion>
+        <ISBN>9783453435773</ISBN>
+    </libro>
+
+    <libro id="3">
+        <autores>
+            <autor>
+                <ap1:apellido>Kindred</ap1:apellido>
+                <ap2:apellido>Dick</ap2:apellido>
+                <nombre>Philip</nombre>
+            </autor>
+        </autores>
+        <titulo>¿Sueñas los androides con ovejas eléctricas?</titulo>
+        <temática>Ciencia Ficción</temática>
+        <editorial>Edhasa</editorial>
+        <fechaPublicacion>1968</fechaPublicacion>
+        <ISBN>9788437634555</ISBN>
+    </libro>
+
+    <libro id="4">
+        <autores>
+            <autor>
+                <ap1:apellido>De Bernardo</ap1:apellido>
+                <ap2:apellido>De Maquiavelo</ap2:apellido>
+                <nombre>Nicolás</nombre>
+            </autor>
+        </autores>
+        <titulo>El príncipe</titulo>
+        <temática>Política</temática>
+        <editorial>ALIANZA EDITORIAL</editorial>
+        <fechaPublicacion>1531</fechaPublicacion>
+        <ISBN>9780023042706</ISBN>
+    </libro>
+
+    <libro id="5">
+        <autores>
+            <autor>
+                <ap1:apellido>Tolkien</ap1:apellido>
+                <ap2:apellido>Reuen</ap2:apellido>
+                <nombre>John Ronald</nombre>
+            </autor>
+        </autores>
+        <titulo>El señor de los anillos: La comunidad del anillo</titulo>
+        <temática>Fantasía</temática>
+        <editorial>Tirant Lo Blanch</editorial>
+        <fechaPublicacion>29/07/1954</fechaPublicacion>
+        <ISBN>9788845292613</ISBN>
+    </libro>
+
+    <libro id="6">
+        <autores>
+            <autor>
+                <ap1:apellido></ap1:apellido>
+                <ap2:apellido>McNeill</ap2:apellido>
+                <nombre>Graham</nombre>
+            </autor>
+        </autores>
+        <titulo>La herejía de Horus: Fulgrim</titulo>
+        <temática>Fantasía Oscura</temática>
+        <editorial>MINOTAURO</editorial>
+        <fechaPublicacion>02/07/2007</fechaPublicacion>
+        <ISBN>9788445003138</ISBN>
+    </libro>
+
+    <libro id="7">
+        <autores>
+            <autor>
+                <ap1:apellido>Jean-Baptiste</ap1:apellido>
+                <ap2:apellido>Roger</ap2:apellido>
+                <nombre>Antoine Marie</nombre>
+            </autor>
+        </autores>
+        <titulo>El principito</titulo>
+        <temática>Cuento</temática>
+        <editorial>Ediciones 19</editorial>
+        <fechaPublicacion>06/04/1943</fechaPublicacion>
+        <ISBN>9783140464079</ISBN>
+    </libro>
+
+    <libro id="8">
+        <autores>
+            <autor>
+                <ap1:apellido></ap1:apellido>
+                <ap2:apellido></ap2:apellido>
+                <nombre>Homero</nombre>
+            </autor>
+        </autores>
+        <titulo>La Odisea</titulo>
+        <temática>Mitológica</temática>
+        <editorial>Austral Editorial</editorial>
+        <fechaPublicacion>SigloVIII A.C.</fechaPublicacion>
+        <ISBN>9788403870154</ISBN>
+    </libro>
+
+    <libro id="9">
+        <autores>
+            <autor>
+                <ap1:apellido>James</ap1:apellido>
+                <ap2:apellido>Brown</ap2:apellido>
+                <nombre>Dan</nombre>
+            </autor>
+        </autores>
+        <titulo>El código Da Vinci</titulo>
+        <temática>Suspenso</temática>
+        <editorial>PLANETA</editorial>
+        <fechaPublicacion>18/03/2003</fechaPublicacion>
+        <ISBN></ISBN>
+    </libro>
+
+    <libro id="10">
+        <autores>
+            <autor>
+                <ap1:apellido>Márquez</ap1:apellido>
+                <ap2:apellido>García</ap2:apellido>
+                <nombre>Gabriel</nombre>
+            </autor>
+        </autores>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <temática>Crónica</temática>
+        <editorial>Bruguera</editorial>
+        <fechaPublicacion>28/04/1981</fechaPublicacion>
+        <ISBN>9780394530741</ISBN>
+    </libro>
+
+
+
+</biblioteca>
+</root>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDsms SYSTEM "Librería_mejora.dtd">
+
+<root xmlns:ap1="PrimerApellido" xmlns:ap2="SegundoApellido">
+<películas>
+
+    <película id="1">
+        <nombre>El Padrino</nombre>
+        <director>Francis Ford Coppola</director>
+        <tema>Mafia</tema>
+        <fechaEstreno>20/10/1972</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>James</ap1:apellido>
+                <ap2:apellido>Pacino</ap2:apellido>
+                <nombre>Alfredo</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Brando</ap1:apellido>
+                <ap2:apellido>Jr.</ap2:apellido>
+                <nombre>Marlon</nombre>
+            </actor>
+        </actores>
+        <productora>Paramount Pictures</productora>
+    </película>
+
+    <película id="2">
+        <nombre>Regreso al futuro</nombre>
+        <director>Robert Zemeckis</director>
+        <tema>Ciencia Ficción</tema>
+        <fechaEstreno>2/12/1985</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Andrew</ap1:apellido>
+                <ap2:apellido>Fox</ap2:apellido>
+                <nombre>Michael</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Allen</ap1:apellido>
+                <ap2:apellido>Lloyd</ap2:apellido>
+                <nombre>Christopher</nombre>
+            </actor>
+        </actores>
+        <productora>Universal Pictures</productora>
+    </película>
+
+    <película id="3">
+        <nombre>Psicosis</nombre>
+        <director>Alfred Hitchcock</director>
+        <tema>Suspenso</tema>
+        <fechaEstreno>2/08/1971</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Perkins</ap1:apellido>
+                <ap2:apellido></ap2:apellido>
+                <nombre>Anthony</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Helen</ap1:apellido>
+                <ap2:apellido>Morrison</ap2:apellido>
+                <nombre>Jeanette</nombre>
+            </actor>
+        </actores>
+        <productora>Shamley Productions</productora>
+    </película>
+
+    <película id="4">
+        <nombre>En busca del arca perdida</nombre>
+        <director>Steven Spielberg</director>
+        <tema>Aventura</tema>
+        <fechaEstreno>5/10/1981</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Ford</ap1:apellido>
+                <ap2:apellido></ap2:apellido>
+                <nombre>Harrison</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Jane</ap1:apellido>
+                <ap2:apellido>Allen</ap2:apellido>
+                <nombre>Karen</nombre>
+            </actor>
+        </actores>
+        <productora>Lucasfilm. Ltd</productora>
+    </película>
+
+    <película id="5">
+        <nombre>El caballero oscuro</nombre>
+        <director>Cristopher Nolan</director>
+        <tema>Crimen</tema>
+        <fechaEstreno>13/08/2008</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Phipip</ap1:apellido>
+                <ap2:apellido>Bale</ap2:apellido>
+                <nombre>Christian Charles</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Andrew</ap1:apellido>
+                <ap2:apellido>Ledger</ap2:apellido>
+                <nombre>Heath</nombre>
+            </actor>
+        </actores>
+        <productora>Warner Bros</productora>
+    </película>
+
+    <película id="6">
+        <nombre>El resplandor</nombre>
+        <director>Stanley Kubrick</director>
+        <tema>Terror Psicológico</tema>
+        <fechaEstreno>19/12/1980</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Joseph</ap1:apellido>
+                <ap2:apellido>Nicholson</ap2:apellido>
+                <nombre>Jack</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Alexis</ap1:apellido>
+                <ap2:apellido>Duvall</ap2:apellido>
+                <nombre>Shelley</nombre>
+            </actor>
+        </actores>
+        <productora>Warner Bros</productora>
+    </película>
+
+    <película id="7">
+        <nombre>Reservoir Dogs</nombre>
+        <director>Quentin Jerome Tarantino</director>
+        <tema>Crimen</tema>
+        <fechaEstreno>21/01/1992</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Soren</ap1:apellido>
+                <ap2:apellido>Madsen</ap2:apellido>
+                <nombre>Michael</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Johannes</ap1:apellido>
+                <ap2:apellido>Keitel</ap2:apellido>
+                <nombre>Harvey</nombre>
+            </actor>
+        </actores>
+        <productora>Live America Inc.</productora>
+    </película>
+
+    <película id="8">
+        <nombre>Blade Runner 2049</nombre>
+        <director>Denis Villeneuve</director>
+        <tema>Cyberpunk</tema>
+        <fechaEstreno>3/10/2017</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Thomas</ap1:apellido>
+                <ap2:apellido>Gosling</ap2:apellido>
+                <nombre>Ryan</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Ford</ap1:apellido>
+                <ap2:apellido></ap2:apellido>
+                <nombre>Harrison</nombre>
+            </actor>
+        </actores>
+        <productora>Alcon Enterteinment</productora>
+    </película>
+
+    <película id="9">
+        <nombre>El Laberinto del Fauno</nombre>
+        <director>Guillermo del Toro</director>
+        <tema>Terror</tema>
+        <fechaEstreno>11/10/2006</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Vaquero</ap1:apellido>
+                <ap2:apellido>Macías</ap2:apellido>
+                <nombre>Ivana</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>López</ap1:apellido>
+                <ap2:apellido>Ayats</ap2:apellido>
+                <nombre>Sergi</nombre>
+            </actor>
+        </actores>
+        <productora>Estudios Picasso</productora>
+    </película>
+
+    <película id="10">
+        <nombre>El Señor de los Anillos: la Comunidad del Anillo</nombre>
+        <director>Peter Jackson</director>
+        <tema>Fantasía</tema>
+        <fechaEstreno>19/12/2001</fechaEstreno>
+        <actores>
+            <actor>
+                <ap1:apellido>Jordan</ap1:apellido>
+                <ap2:apellido>Wood</ap2:apellido>
+                <nombre>Elijah</nombre>
+            </actor>
+            <actor>
+                <ap1:apellido>Mortensen</ap1:apellido>
+                <ap2:apellido>Jr.</ap2:apellido>
+                <nombre>Viggo Peter</nombre>
+            </actor>
+        </actores>
+        <productora>New Line Cinema</productora>
+    </película>
+
+
+</películas>
+</root>

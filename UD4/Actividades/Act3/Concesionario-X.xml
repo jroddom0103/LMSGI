@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:noNamespaceSchemaLocation="Concesionario.xsd">
+
+	<Coche>
+
+		<Cod_coche>01</Cod_coche>
+		<Marca>Ferrari</Marca>
+		<Modelo>812GTS</Modelo>
+		<Matricula>SC22 0</Matricula>
+		<Potencia>860</Potencia>
+		<Num_puertas>2</Num_puertas>
+		
+	</Coche>
+	
+	<Coche>
+		
+		<Cod_coche>02</Cod_coche>
+		<Marca>Toyota</Marca>
+		<Modelo>Corolla</Modelo>
+		<Matricula>AB12 3CD</Matricula>
+		<Potencia>100</Potencia>
+		<Num_puertas>4</Num_puertas>
+		
+	</Coche>
+
+	<Coche>
+		
+		<Cod_coche>03</Cod_coche>
+		<Marca>Audi</Marca>
+		<Modelo>A3</Modelo>
+		<Matricula>EF45 6GH</Matricula>
+		<Potencia>140</Potencia>
+		<Num_puertas>5</Num_puertas>
+		
+	</Coche>
+
+	<Coche>
+		
+		<Cod_coche>04</Cod_coche>
+		<Marca>BMW</Marca>
+		<Modelo>325d Berlina</Modelo>
+		<Matricula>IJ78 9KL</Matricula>
+		<Potencia>218</Potencia>
+		<Num_puertas>5</Num_puertas>
+		
+	</Coche>
+	
+</Concesionario>

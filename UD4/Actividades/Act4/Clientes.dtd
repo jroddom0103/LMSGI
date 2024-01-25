@@ -1,0 +1,14 @@
+﻿<!ELEMENT Gestoría (sedes,clientes)>
+<!ELEMENT sedes (sede*)>
+	<!ELEMENT sede (cod_sede, nom_empleado, fecha_alta)>
+		<!ELEMENT cod_sede (#PCDATA)>
+		<!ELEMENT nom_empleado (#PCDATA)>
+		<!ELEMENT fecha_alta (#PCDATA)>
+<!ELEMENT clientes (cliente*)>
+	<!ELEMENT cliente (descCliente, num, vivienda)>	
+		<!ELEMENT desCliente (#PCDATA)>
+		<!ELEMENT num (#PCDATA)>
+		<!ELEMENT vivienda (coste, resumen, plazo)>
+			<!ELEMENT coste (#PCDATA)>
+			<!ELEMENT resumen (#PCDATA)>
+			<!ELEMENT plazo (#PCDATA)>

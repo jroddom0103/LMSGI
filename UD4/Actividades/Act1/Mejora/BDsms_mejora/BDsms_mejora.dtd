@@ -1,0 +1,6 @@
+<!ELEMENT Eventos (evento*)>
+<!ELEMENT evento (nombre,fecha,hora,descripción)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT descripción (#PCDATA)>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Gestoría SYSTEM "Clientes.dtd">
+<Gestoría>
+	<sedes>
+
+		<sede>
+			<cod_sede>B12345678</cod_sede>
+			<nom_empleado>Juan Perez</nom_empleado>
+			<fecha_alta>2024-01-18</fecha_alta>
+		</sede>
+
+		<sede>
+			<cod_sede>C23456789</cod_sede>
+			<nom_empleado>Maria Rodriguez</nom_empleado>
+			<fecha_alta>2024-01-18</fecha_alta>
+		</sede>
+
+		<sede>
+			<cod_sede>D34567890</cod_sede>
+			<nom_empleado>Pedro Garcia</nom_empleado>
+			<fecha_alta>2024-01-18</fecha_alta>
+		</sede>
+
+	</sedes>
+	
+	<clientes>
+
+		<cliente codigo="ABC-123">
+			<descCliente>Solvente</descCliente>
+			<num>3</num>
+			<vivienda id="001">
+				<coste>90</coste>
+				<resumen>Producto frágil</resumen>
+				<plazo>10</plazo>	
+			</vivienda>
+			<vivienda id="002">
+				<coste>100</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>10</plazo>
+			</vivienda>
+			<vivienda id="003">
+				<coste>75</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>10</plazo>
+			</vivienda>
+		</cliente>
+
+		
+		<cliente codigo="XYZ-789">
+			<descCliente>Insolvente</descCliente>
+			<num>2</num>
+			<vivienda id="004">
+				<coste>80</coste>
+				<resumen>Producto frágil</resumen>
+				<plazo>15</plazo>
+			</vivienda>
+			<vivienda id="005">
+				<coste>90</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>20</plazo>
+			</vivienda>
+		</cliente>
+
+		
+		<cliente codigo="LMN-456">
+			<descCliente>Solvente</descCliente>
+			<num>1</num>
+			<vivienda id="006">
+				<coste>100</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>10</plazo>
+			</vivienda>
+		</cliente>
+
+		
+		<cliente codigo="OPQ-123">
+			<descCliente>Insolvente</descCliente>
+			<num>3</num>
+			<vivienda id="007">
+				<coste>70</coste>
+				<resumen>Producto frágil</resumen>
+				<plazo>25</plazo>
+			</vivienda>
+			<vivienda id="008">
+				<coste>80</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>30</plazo>
+			</vivienda>
+			<vivienda id="009">
+				<coste>90</coste>
+				<resumen>Producto muy frágil</resumen>
+				<plazo>35</plazo>
+			</vivienda>
+		</cliente>
+		
+		
+	</clientes>
+	
+	
+	
+</Gestoría>

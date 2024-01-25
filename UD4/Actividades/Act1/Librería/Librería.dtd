@@ -1,0 +1,11 @@
+<!ELEMENT root (biblioteca)>
+<!ELEMENT biblioteca (libro*)>
+<!ELEMENT libro (autores,titulo,tematica,editorial,fechaPublicacion,ISBN)>
+<!ELEMENT autores (ap1:apellido, ap2:apellido)>
+<!ELEMENT ap1:apellido (#PCDATA)>
+<!ELEMENT ap2:apellido (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT tematica (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
