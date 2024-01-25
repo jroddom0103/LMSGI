@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Alumnado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			   xsi:noNamespaceSchemaLocation="Alumnado.xsd">
+    <Alumnos>
+
+        <alumno>
+
+            <nif>57918411H</nif>
+            <resultado>true</resultado>
+            <observaciones></observaciones>
+            <ipmac>ip</ipmac>
+    
+        </alumno>
+    
+        <alumno>
+    
+            <nif>98371531B</nif>
+            <resultado>false</resultado>
+            <observaciones>Ausencia prolongada.</observaciones>
+            <ipmac>mac</ipmac>
+    
+        </alumno>
+    
+        <alumno>
+    
+            <nif>13896510E</nif>
+            <resultado>true</resultado>
+            <observaciones>Comportamiento ejemplar.</observaciones>
+            <ipmac>mac</ipmac>
+    
+        </alumno>
+
+    </Alumnos>           
+
+    
+
+</Alumnado>
