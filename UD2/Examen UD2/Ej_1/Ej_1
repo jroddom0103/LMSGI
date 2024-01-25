@@ -1,0 +1,50 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+    <head>
+        <title>Documento HTML Lorem Ipsum</title>
+        <link rel="stylesheet" href="css">
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            var d = new Date(); document.write(d.getDate() + "/" + (d.getMonth() +1) + "/" + d.getFullYear(), ', '+d.getHours(),':'+d.getMinutes(),':'+d.getSeconds());
+        </script>
+
+        <h1>Texto Lorem ipsum</h1>
+
+        <p> Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendr
+        erit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidan
+        s eu, legimus senserit definiebas an eos. Eu sit tincidunt incorrupte definitionem, vis mutat affert per
+        cipit cu, eirmod consectetuer signiferumque eu per. In usu latine equidem dolores. Quo no falli viris in
+        tellegam, ut fugit veritus placeratper. </p>
+
+        <p> Ius id vidit volumus mandamus, vide veritus democritum te nec, ei eos debet libris consulatu. No
+        mei ferrigraeco dicunt, ad cum veri accommodare. Sed at malis omnesque delicata, usu et iusto zzril meli
+        ore. Dicuntmaiorum eloquentiam cum cu, sit summo dolor essent te. Ne quodsi nusquam legendos has, ea dic
+        it voluptuaeloquentiam pro, ad sit quas qualisque. Eos vocibus deserunt quaestio ei.
+
+        <br>
+
+        <a href="http://es.wikipedia.org/wiki/Lorem_ipsum">Texto original</a>
+
+        </p>
+        
+        <h1>Rodríguez Domínguez Juan Antonio. 30/10/2023.</h1>
+        <img src="ladrillosclaros.jpg" alt="Imagen no encontrada" width="200px">
+        <br>
+        <a href="https://github.com">Nuevo enlace</a>
+       
+        <class id="clase">
+            <p id="rojo">Este es un nuevo párrafo</p>
+            <p>Este es un segundo párrafo nuevo</p> 
+        </class>
+
+        <ol>
+            <li>Primer elemento</li>
+            <li>Segundo elemento</li>
+            <li>Tercero elemento</li>
+        </ol>
+
+    </body>
+</html>

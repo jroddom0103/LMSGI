@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+
+<muebles>
+
+   <sillas>
+
+      <silla>silla_de_oficina</silla>
+
+      <silla>silla_de_madera</silla>
+
+      <silla>silla_de_plástico</silla>
+
+   </sillas>
+
+   <mesas>
+
+      <mesa>mesa_de_madera</mesa>
+
+   </mesas>
+
+   <sofás>
+
+      <sofá>sofá_en_L</sofá>
+
+      <sofá>sofá_cama</sofá>
+
+   </sofás>
+
+</muebles>

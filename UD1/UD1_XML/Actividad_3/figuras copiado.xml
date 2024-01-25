@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dispositivos> 
+
+   <dispositivo marca="Samsung">
+
+      <clase>tableta</clase>
+
+      <precio>300€</precio>
+
+   </dispositivo>
+
+   <dispositivo marca="iPhone">
+
+      <clase>móvil</clase>
+
+      <precio>800€</precio>
+
+   </dispositivo>
+
+   <dispositivo marca="Huawei">
+
+      <clase>móvil</clase>
+
+      <precio>280€</precio>
+
+      <almacenamiento>64GB</almacenamiento>
+
+   </dispositivo>
+
+</dispositivos>

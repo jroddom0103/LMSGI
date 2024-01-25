@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Ejercicio 2</title>
+        <link rel="stylesheet" href="css">
+
+
+    </head>
+
+    <body>
+
+        <p>“La historia de la lógica documenta el desarrollo de la lógica en varias culturas y tradiciones a lo largo de la historia.
+            Aunque muchas culturas han empleado intrincados sistemas de razonamiento, e, incluso, el pensamiento lógico estaba
+            ya implícito en Babilonia en algún sentido, la lógica como análisis explícito de los métodos de razonamiento ha recibido
+            un tratamiento sustancial solo originalmente en tres tradiciones: la Antigua China, la Antigua India y la Antigua Grecia.
+            Aunque las dataciones exactas son inciertas, particularmente en el caso de la India, es probable que la lógica
+            emergiese en las tres sociedades hacia el siglo IV a. C. El tratamiento formalmente sofisticado de la lógica proviene de
+            la tradición griega, especialmente del Organon aristotélico, cuyos logros serían desarrollados por los lógicos islámicos y,
+            luego, por los lógicos de la Edad Media europea. El descubrimiento de la lógica india entre los especialistas británicos
+            en el siglo XVIII influyó también en la lógica moderna.”
+        </p>
+
+    </body>
+
+
+</html>

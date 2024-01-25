@@ -1,0 +1,9 @@
+p{
+    font-family: Arial; alt: Verdana;
+    font-size: 10;
+    color: aquamarine;
+    justify-content: center;
+    padding: left 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}

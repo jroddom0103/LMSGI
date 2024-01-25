@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+
+    </head>
+
+    <form>
+
+        Nombre:<input type="text" size="30"><intput>
+        Apellidos:<input type="text" size="30"></input>
+        Email:<input type="email" required><input><br><br>
+
+        <form>
+        
+        <select name="Opciones">
+            <option value="1">Pedir presupuesto</option>
+            <option value="2">Solicitar cita previa</option>
+            <option value="3">Otros</option>
+        </select><br><br>
+
+        ¿Cómo nos has escogido?<br><br>
+        <input type="checkbox" size="20">Amigo</intput>
+        <input type="checkbox" size="20">Googleando</intput>
+        <input type="checkbox" size="20">Buzoneo</input>
+        <input type="checkbox" size="20">Otros</input>
+        <br><br>
+
+        Mensaje<input type="text" size="300"></input><br><br>
+        
+        <input type="checkbox" required>Acepto
+
+
+    </form>
+
+
+</html>

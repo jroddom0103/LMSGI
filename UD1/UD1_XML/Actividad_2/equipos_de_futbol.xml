@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equipos_de_futbol>
+
+    <Equipo_1>
+        <Nombre>Real_Madrid</Nombre>
+        <Ciudad>Madrid</Ciudad>
+        <Entrenador>Carlo Ancelotti</Entrenador>
+
+        <Jugador_1 posición="portero">
+            <Nombre>Thibaut Courtois</Nombre>
+            <Nacionalidad>Belga</Nacionalidad>
+        </Jugador_1>
+
+        <Jugador_2 posición="defensa">
+            <Nombre>Daniel Carvajal</Nombre>
+            <Nacionalidad>Español</Nacionalidad>
+        </Jugador_2>
+
+    </Equipo_1>
+    
+    <Equipo_2>
+        <Nombre>Fúbol Club Barcelona</Nombre>
+        <Ciudad>Barcelona</Ciudad>
+        <Entrenador>Xavi Hernández</Entrenador>
+
+    <Jugador_1 posición="centrocampista">
+        <Nombre>Pedri</Nombre>
+        <Nacionalidad>Español</Nacionalidad>
+    </Jugador_1>
+
+        <Jugador_2 posición="defensa">
+            <Nombre>Ferran Torres</Nombre>
+            <Nacionalidad>Español</Nacionalidad>
+        </Jugador_2>
+    </Equipo_2>
+
+</Equipos_de_futbol>

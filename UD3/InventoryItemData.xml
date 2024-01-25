@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ItemsInventario>
+  <ItemInventario ID = "xmltut_small_sword" Type ="weapon">
+    <TituloItem>Espada Pequeña</TituloItem>
+	<DescItem>Esta es la primera espada que encontrarás en tu camino. No muy poderosa, pero siempre estará a tu lado.</DescItem>
+	<Color>
+	  <r>167</r>
+	  <g>167</g>
+	  <b>167</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>smallsword</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_steel_helmet" Type = "armor">
+    <TituloItem>Casco De Acero</TituloItem>
+	<DescItem>Este casco creado con acero brillante probablemente protegerá tu cabeza en batalla.</DescItem>
+	<Color>
+	  <r>19</r>
+	  <g>218</g>
+	  <b>0</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>steelhelmet</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_health_potion_50" Type = "consumable">
+    <TituloItem>Poción Pequeña</TituloItem>
+	<DescItem>Restaura 50 de vida.</DescItem>
+	<Color>
+	  <r>19</r>
+	  <g>218</g>
+	  <b>0</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>50healthpot</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_big_sword" Type = "weapon">
+    <TituloItem>Espada Legendaria</TituloItem>
+	<DescItem>La Espada Legendaria matará a todos los enemigos en tu camino con facilidad. Debido a su tamaño, debe ser difícil de balancear.</DescItem>
+	<Color>
+	  <r>255</r>
+	  <g>255</g>
+	  <b>0</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>bigsword</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_bow" Type ="weapon">
+    <TituloItem>Arco Recurvo</TituloItem>
+		<DescItem>¡Dispara a enemigos desde un lugar seguro con el Arco Recurvo! ¡Sólo no te olvides de traer suficientes flechas!</DescItem>
+	<Color>
+	  <r>69</r>
+	  <g>169</g>
+	  <b>255</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>recurvebow</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_chain_mail" Type = "armor">
+    <TituloItem>Cota De Malla</TituloItem>
+	<DescItem>Esta ligera armadura te protegerá de impactos menores.</DescItem>
+	<Color>
+	  <r>19</r>
+	  <g>218</g>
+	  <b>0</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>chainmail</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_health_potion_100" Type = "consumable">
+    <TituloItem>Poción Grande</TituloItem>
+	<DescItem>Restaura 100 de vida.</DescItem>
+	<Color>
+	  <r>69</r>
+	  <g>169</g>
+	  <b>255</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>100healthpot</IMAGEN>
+  </ItemInventario>
+  
+  <ItemInventario ID = "xmltut_wood_shield" Type = "armor">
+    <TituloItem>Escudo De Madera</TituloItem>
+	<DescItem>Este escudo te protege desde pequeños a medianos impactos de fuerza mientras no estás atacando.</DescItem>
+	<Color>
+	  <r>19</r>
+	  <g>218</g>
+	  <b>0</b>
+	  <a>255</a>
+	</Color>
+	<IMAGEN>woodshield</IMAGEN>
+  </ItemInventario>
+</ItemsInventario>

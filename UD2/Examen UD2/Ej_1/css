@@ -1,0 +1,12 @@
+p{
+    font-size: 11px;    
+}
+img{
+    border: white 5px;
+}
+#rojo{
+    color: red;
+}
+#clase{
+    font-weight: bold;
+}
