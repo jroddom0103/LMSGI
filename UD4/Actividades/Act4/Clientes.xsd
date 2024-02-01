@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Gestoría">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sedes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sede" maxOccurs="unbounded"></xs:element>
+                                <xs:element name="cod_sede"></xs:element>
+                                <xs:element name="nom_empleado"></xs:element>
+                                <xs:element name="fecha_alta"></xs:element>
+                                <xs:element name="clientes"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>   
+    </xs:element>
+</xs:schema>

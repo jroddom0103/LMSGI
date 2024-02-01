@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="file:///C:/Users/jroddom0103/Desktop/1-DAW/Lenguaje/UD4/Actividades/Act6/Actividad6Normal/XSD/MódulosCFGS.xsd">
+
+    <Modulo>
+        
+        <nombre>Bases de Datos</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>Almacenamiento de la información</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>Bases de Datos Relacionales</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Modelos Entidad Relación</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Transformación Modelo E/R al Modelo Relacional</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD5</tipo>
+                <descripcion>Lenguaje SQL-DDL</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD6</tipo>
+                <descripcion>Lenguaje SQL-DML</descripcion>
+            </UD>
+        </contenidos>
+
+    </Modulo>
+     
+    <Modulo>
+        <nombre>Entornos de Desarrollo</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>Desarrollo de software</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>Instalación y uso de entornos de desarrollo</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Optimización y documentación</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Depuración y realización de pruebas</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+    <Modulo>
+        
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>La prevención de riesgos, conceptos básicos</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>La prevención de riesgos, Legislación y Organización</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Factores de riesgo y su prevención</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Emergencias y primeros auxilios</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD5</tipo>
+                <descripcion>Derecho del Trabajo</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD6</tipo>
+                <descripcion>El Contrato de trabajo</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+    <Modulo>
+        
+        <nombre>Formación y Orientación Laboral</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>La prevención de riesgos, conceptos básicos</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>La prevención de riesgos, Legislación y Organización</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Factores de riesgo y su prevención</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Emergencias y primeros auxilios</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD5</tipo>
+                <descripcion>Derecho del Trabajo</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD6</tipo>
+                <descripcion>El Contrato de trabajo</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+    <Modulo>
+        
+        <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>Introducción a los lenguajes de marcas</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>Lenguajes para la  visualización de información</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Lenguajes para el almacenammiento y transmisión de información</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Definición de esquemas y vocabularios en XML</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+    <Modulo>
+        
+        <nombre>Programación</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>Introducción a la programación</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>Estructuras repetitivas</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Estructuras de datos I</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD4</tipo>
+                <descripcion>Introducción a la POO</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD5</tipo>
+                <descripcion>Clases. Continuación</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+    <Modulo>
+        
+        <nombre>Sistemas Informáticos</nombre>
+        <contenidos>
+            <UD>
+                <tipo>UD1</tipo>
+                <descripcion>Instalación de Sistemas Operativos</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD2</tipo>
+                <descripcion>Gestión de Paquetes</descripcion>
+            </UD>
+            <UD>
+                <tipo>UD3</tipo>
+                <descripcion>Particionado de Disco</descripcion>
+            </UD>
+        
+        </contenidos>
+
+    </Modulo>
+
+</Modulos>

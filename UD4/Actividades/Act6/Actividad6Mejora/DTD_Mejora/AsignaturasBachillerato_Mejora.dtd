@@ -1,0 +1,7 @@
+<!ELEMENT Asignaturas (Asignatura*)>
+<!ELEMENT Asignatura (nombre_asignatura, temas)>
+<!ELEMENT nombre_asignatura (#PCDATA)>
+<!ELEMENT temas (tema*)>
+<!ELEMENT tema (numero_tema, titulo_tema)>
+<!ELEMENT numero_tema (#PCDATA)>
+<!ELEMENT titulo_tema (#PCDATA)>

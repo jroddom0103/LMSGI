@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Asignaturas SYSTEM "file:///C:/Users/jroddom0103/Desktop/1-DAW/Lenguaje/UD4/Actividades/Act6/Actividad6Mejora/DTD_Mejora/AsignaturasBachillerato_Mejora.dtd">
+<Asignaturas> 
+
+    <Asignatura>
+
+        <nombre_asignatura>Lengua</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Los niveles de la lengua</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Origen y desarrollo de la Lengua Española</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+        <titulo_tema>Situación lingüística de España. Lenguas y dialectos</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>Variedad dialectal extremeña</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema5</numero_tema>
+                <titulo_tema>Características del español de América</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema6</numero_tema>
+                <titulo_tema>Procedimientos de creación de palabras</titulo_tema>
+            </tema>
+        </temas>
+
+    </Asignatura>
+     
+    <Asignatura>
+
+        <nombre_asignatura>Matemáticas</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Matrices</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Inecuaciones y sistemas</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Determinantes</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>Programación lineal</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+    <Asignatura>
+        
+        <nombre_asignatura>Dibujo_Tecnico</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Trazados fundamentales en el plano</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Potencia, eje radical</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Polígonos. Triángulos</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>Equivalencias.</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema5</numero_tema>
+                <titulo_tema>Homología y afinidad</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema6</numero_tema>
+                <titulo_tema>Inversión</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+    <Asignatura>
+        
+        <nombre_asignatura>TIC</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Definición y tipos de estructuras de almacenamiento</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Características de las principales estructuras de almacenamiento</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Aplicaciones de las estructuras de almacenamiento</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>Introducción a los lenguajes de programación</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema5</numero_tema>
+                <titulo_tema>Sintaxis y semántica</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema6</numero_tema>
+                <titulo_tema>Programación estructurada general</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+    <Asignatura>
+        
+        <nombre_asignatura>Historia de España</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Prehistoria en la Península Ibérica</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Imperio romano en la Península Ibérica</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Monarquía visigoda</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>Edad Media en España</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+    <Asignatura>
+        
+        <nombre_asignatura>Religion</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Antropología cristiana</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Doctrina social de la Iglesia</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Relación entre la razón, la ciencia y la fe</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema4</numero_tema>
+                <titulo_tema>La Iglesia generadora de cultura a lo largo de la historia</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema5</numero_tema>
+                <titulo_tema>La Biblia, la escritura sagrada</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+    <Asignatura>
+        
+        <nombre_asignatura>Fisica</nombre_asignatura>
+        <temas>
+            <tema>
+                <numero_tema>tema1</numero_tema>
+                <titulo_tema>Gravitación universal</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema2</numero_tema>
+                <titulo_tema>Movimiento armónico simple</titulo_tema>
+            </tema>
+            <tema>
+                <numero_tema>tema3</numero_tema>
+                <titulo_tema>Movimiento ondulatorio</titulo_tema>
+            </tema>
+        
+        </temas>
+
+    </Asignatura>
+
+</Asignaturas>
