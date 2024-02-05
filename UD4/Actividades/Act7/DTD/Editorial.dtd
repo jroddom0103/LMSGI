@@ -1,0 +1,10 @@
+<!ELEMENT Informe (regiones)>
+<!ATTLIST Informe descripcion CDATA #REQUIRED>
+<!ATTLIST Informe informeFecha CDATA #REQUIRED>
+<!ELEMENT regiones (region*)>
+<!ELEMENT region (trimestres)>
+<!ATTLIST region id CDATA #REQUIRED>
+<!ELEMENT trimestres (trimestre*)> 
+<!ELEMENT trimestre (libros_vendidos)>
+<!ATTLIST trimestre id CDATA #REQUIRED>
+<!ELEMENT libros_vendidos (#PCDATA)>

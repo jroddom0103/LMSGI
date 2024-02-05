@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Informe SYSTEM "file:///C:/Users/jroddom0103/Desktop/1-DAW/Lenguaje/UD4/Actividades/Act7/DTD/Editorial.dtd">
+<Informe descripcion="Informe de ventas para las regiones Norte, Centro y Sur" informeFecha="30/12/2009">
+
+    <regiones>
+
+        <region id="Norte">
+            <trimestres>
+
+                <trimestre id="1">
+
+                    <libros_vendidos>24000</libros_vendidos>
+
+                </trimestre>
+
+                <trimestre id="2">
+                    
+                    <libros_vendidos>38600</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="3">
+                    
+                    <libros_vendidos>NO_INFO</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="4">
+                    
+                    <libros_vendidos>NO_INFO</libros_vendidos>
+
+                </trimestre>    
+
+            </trimestres>
+        </region>
+
+        <region id="Centro">
+            <trimestres>
+
+                <trimestre id="1">
+
+                    <libros_vendidos>NO_INFO</libros_vendidos>
+
+                </trimestre>
+
+                <trimestre id="2">
+                    
+                    <libros_vendidos>16080</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="3">
+                    
+                    <libros_vendidos>25000</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="4">
+                    
+                    <libros_vendidos>29000</libros_vendidos>
+
+                </trimestre>  
+
+            </trimestres>
+        </region>
+
+        <region id="Sur">
+            <trimestres>
+
+                <trimestre id="1">
+
+                    <libros_vendidos>27000</libros_vendidos>
+
+                </trimestre>
+
+                <trimestre id="2">
+                    
+                    <libros_vendidos>31400</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="3">
+                    
+                    <libros_vendidos>40100</libros_vendidos>
+
+                </trimestre>    
+
+                <trimestre id="4">
+                    
+                    <libros_vendidos>30000</libros_vendidos>
+
+                </trimestre>   
+
+            </trimestres>
+        </region>
+
+
+    </regiones>
+
+</Informe>
