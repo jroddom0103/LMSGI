@@ -3,33 +3,43 @@ from jsonschema import validate
 
 # Definir el esquema
 schema = {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-        "nombre": {
-            "type": "string",
-            "minLength": 1
-        },
-        "edad": {
-            "type": "integer",
-            "minimum": 0
-        },
-        "hobbies": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "minLength":  0
     },
-    "required": ["nombre", "edad"]
+    "edad": {
+      "type": "integer",
+      "minimum":  0
+    },
+    "hobbies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "correo": {
+      "type": "string",
+      "format": "email"
+    },
+    "sexo": {
+      "type": "string",
+      "enum": ["H", "M"]
+    }
+  },
+  "required": ["nombre", "edad", "hobbies", "correo", "sexo"]
 }
 
 # Archivo JSON a validar
 archivo_json = '''
 {
   "nombre": "Juan",
-  "edad": 25,
-  "hobbies": ["lectura", "ciclismo"]
+  "edad":  25,
+  "hobbies": ["lectura", "ciclismo"],
+  "correo": "jroddom0103@g.educaand.es",
+  "sexo": "H"
 }
 '''
 

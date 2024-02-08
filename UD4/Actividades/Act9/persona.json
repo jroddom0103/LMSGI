@@ -1,6 +1,8 @@
 {
     "nombre": "Juan",
     "edad": 25,
-    "hobbies": ["lectura", "ciclismo"]
+    "hobbies": ["lectura", "ciclismo"],
+    "correo": "jroddom0103@g.educaand.es",
+    "sexo": "H"
   }
   
