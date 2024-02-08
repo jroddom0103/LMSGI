@@ -94,44 +94,11 @@
 
     <Modulo>
         
-        <nombre>Formación y Orientación Laboral</nombre>
-        <contenidos>
-            <UD>
-                <tipo>UD1</tipo>
-                <descripcion>La prevención de riesgos, conceptos básicos</descripcion>
-            </UD>
-            <UD>
-                <tipo>UD2</tipo>
-                <descripcion>La prevención de riesgos, Legislación y Organización</descripcion>
-            </UD>
-            <UD>
-                <tipo>UD3</tipo>
-                <descripcion>Factores de riesgo y su prevención</descripcion>
-            </UD>
-            <UD>
-                <tipo>UD4</tipo>
-                <descripcion>Emergencias y primeros auxilios</descripcion>
-            </UD>
-            <UD>
-                <tipo>UD5</tipo>
-                <descripcion>Derecho del Trabajo</descripcion>
-            </UD>
-            <UD>
-                <tipo>UD6</tipo>
-                <descripcion>El Contrato de trabajo</descripcion>
-            </UD>
-        
-        </contenidos>
-
-    </Modulo>
-
-    <Modulo>
-        
         <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
         <contenidos>
             <UD>
                 <tipo>UD1</tipo>
-                <descripcion>Introducción a los lenguajes de marcas</descripcion>
+                <descripcion>Almacenamiento de la información</descripcion>
             </UD>
             <UD>
                 <tipo>UD2</tipo>

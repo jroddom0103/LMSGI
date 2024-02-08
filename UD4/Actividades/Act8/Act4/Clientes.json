@@ -1,0 +1,110 @@
+{
+    "Gestoria": {
+      "sedes": {
+        "sede": [
+          {
+            "cod_sede": "B12345678",
+            "nom_empleado": "Juan Perez",
+            "fecha_alta": "2024-01-18"
+          },
+          {
+            "cod_sede": "C23456789",
+            "nom_empleado": "Maria Rodriguez",
+            "fecha_alta": "2024-01-18"
+          },
+          {
+            "cod_sede": "D34567890",
+            "nom_empleado": "Pedro Garcia",
+            "fecha_alta": "2024-01-18"
+          }
+        ]
+      },
+      "clientes": {
+        "cliente": [
+          {
+            "codigo": "ABC-123",
+            "descCliente": "Solvente",
+            "num": "3",
+            "vivienda": [
+              {
+                "id": "001",
+                "coste": "90",
+                "resumen": "Producto frágil",
+                "plazo": "10"
+              },
+              {
+                "id": "002",
+                "coste": "100",
+                "resumen": "Producto muy frágil",
+                "plazo": "10"
+              },
+              {
+                "id": "003",
+                "coste": "75",
+                "resumen": "Producto muy frágil",
+                "plazo": "10"
+              }
+            ]
+          },
+          {
+            "codigo": "XYZ-789",
+            "descCliente": "Insolvente",
+            "num": "2",
+            "vivienda": [
+              {
+                "id": "004",
+                "coste": "80",
+                "resumen": "Producto frágil",
+                "plazo": "15"
+              },
+              {
+                "id": "005",
+                "coste": "90",
+                "resumen": "Producto muy frágil",
+                "plazo": "20"
+              }
+            ]
+          },
+          {
+            "codigo": "LMN-456",
+            "descCliente": "Solvente",
+            "num": "1",
+            "vivienda": [
+              {
+                "id": "006",
+                "coste": "100",
+                "resumen": "Producto muy frágil",
+                "plazo": "10"
+              }
+            ]
+          },
+          {
+            "codigo": "OPQ-123",
+            "descCliente": "Insolvente",
+            "num": "3",
+            "vivienda": [
+              {
+                "id": "007",
+                "coste": "70",
+                "resumen": "Producto frágil",
+                "plazo": "25"
+              },
+              {
+                "id": "008",
+                "coste": "80",
+                "resumen": "Producto muy frágil",
+                "plazo": "30"
+              },
+              {
+                "id": "009",
+                "coste": "90",
+                "resumen": "Producto muy frágil",
+                "plazo": "35"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  

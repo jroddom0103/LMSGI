@@ -1,0 +1,78 @@
+{
+    "@descripcion": "Informe de ventas para las regiones Norte, Centro y Sur",
+    "@informeFecha": "30/12/2009",
+    "regiones": {
+      "region": [
+        {
+          "@id": "Norte",
+          "trimestres": {
+            "trimestre": [
+              {
+                "@id": "1",
+                "libros_vendidos": "24000"
+              },
+              {
+                "@id": "2",
+                "libros_vendidos": "38600"
+              },
+              {
+                "@id": "3",
+                "libros_vendidos": "NO_INFO"
+              },
+              {
+                "@id": "4",
+                "libros_vendidos": "NO_INFO"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "Centro",
+          "trimestres": {
+            "trimestre": [
+              {
+                "@id": "1",
+                "libros_vendidos": "NO_INFO"
+              },
+              {
+                "@id": "2",
+                "libros_vendidos": "16080"
+              },
+              {
+                "@id": "3",
+                "libros_vendidos": "25000"
+              },
+              {
+                "@id": "4",
+                "libros_vendidos": "29000"
+              }
+            ]
+          }
+        },
+        {
+          "@id": "Sur",
+          "trimestres": {
+            "trimestre": [
+              {
+                "@id": "1",
+                "libros_vendidos": "27000"
+              },
+              {
+                "@id": "2",
+                "libros_vendidos": "31400"
+              },
+              {
+                "@id": "3",
+                "libros_vendidos": "40100"
+              },
+              {
+                "@id": "4",
+                "libros_vendidos": "30000"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
