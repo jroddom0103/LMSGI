@@ -26,7 +26,7 @@ schema = {
     },
     "sexo": {
       "type": "string",
-      "enum": ["H", "M"]
+      "minLenght": 0
     }
   },
   "required": ["nombre", "edad", "hobbies", "correo", "sexo"]
@@ -39,7 +39,7 @@ archivo_json = '''
   "edad":  25,
   "hobbies": ["lectura", "ciclismo"],
   "correo": "jroddom0103@g.educaand.es",
-  "sexo": "H"
+  "sexo": ""
 }
 '''
 
