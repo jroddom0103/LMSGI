@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "@descripcion": {
+            "type": "string"
+        },
+        "@informeFecha": {
+            "type": "string",
+            "format": "date"
+        },
+        "regiones": {
+            "type": "object",
+            "properties": {
+                "region": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "type": "string"
+                            },
+                            "trimestres": {
+                                "type": "object",
+                                "properties": {
+                                    "trimestre": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "@id": {
+                                                    "type": "string"
+                                                },
+                                                "libros_vendidos": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": ["@id", "libros_vendidos"]
+                                        }
+                                    }
+                                },
+                                "required": ["trimestre"]
+                            }
+                        },
+                        "required": ["@id", "trimestres"]
+                    }
+                }
+            },
+            "required": ["region"]
+        }
+    },
+    "required": ["@descripcion", "@informeFecha", "regiones"]
+}

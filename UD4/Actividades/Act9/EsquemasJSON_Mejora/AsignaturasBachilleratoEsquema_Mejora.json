@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Asignaturas": {
+            "type": "object",
+            "properties": {
+                "Asignatura": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "nombre_asignatura": {
+                                "type": "string"
+                            },
+                            "temas": {
+                                "type": "object",
+                                "properties": {
+                                    "tema": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "numero_tema": {
+                                                    "type": "string"
+                                                },
+                                                "titulo_tema": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": ["numero_tema", "titulo_tema"]
+                                        }
+                                    }
+                                },
+                                "required": ["tema"]
+                            }
+                        },
+                        "required": ["nombre_asignatura", "temas"]
+                    }
+                }
+            },
+            "required": ["Asignatura"]
+        }
+    },
+    "required": ["Asignaturas"]
+}

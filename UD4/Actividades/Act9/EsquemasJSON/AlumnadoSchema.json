@@ -1,0 +1,40 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Alumnado": {
+            "type": "object",
+            "properties": {
+                "alumnos": {
+                    "type": "object",
+                    "properties": {
+                        "alumno": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "nif": {
+                                        "type": "string"
+                                    },
+                                    "resultado": {
+                                        "type": "boolean"
+                                    },
+                                    "observaciones": {
+                                        "type": "string"
+                                    },
+                                    "ipmac": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": ["nif", "resultado", "observaciones", "ipmac"]
+                            }
+                        }
+                    },
+                    "required": ["alumno"]
+                }
+            },
+            "required": ["alumnos"]
+        }
+    },
+    "required": ["Alumnado"]
+}

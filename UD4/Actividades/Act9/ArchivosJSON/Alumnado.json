@@ -1,0 +1,27 @@
+{
+    "Alumnado": {
+      "alumnos": {
+        "alumno": [
+          {
+            "nif": "57918411H",
+            "resultado": true,
+            "observaciones": "",
+            "ipmac": "ip"
+          },
+          {
+            "nif": "98371531B",
+            "resultado": false,
+            "observaciones": "Ausencia prolongada.",
+            "ipmac": "mac"
+          },
+          {
+            "nif": "13896510E",
+            "resultado": true,
+            "observaciones": "Comportamiento ejemplar.",
+            "ipmac": "mac"
+          }
+        ]
+      }
+    }
+}
+  

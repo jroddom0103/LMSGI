@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "Gestoria": {
+            "type": "object",
+            "properties": {
+                "sedes": {
+                    "type": "object",
+                    "properties": {
+                        "sede": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "cod_sede": {"type": "string"},
+                                    "nom_empleado": {"type": "string"},
+                                    "fecha_alta": {"type": "string", "format": "date"}
+                                },
+                                "required": ["cod_sede", "nom_empleado", "fecha_alta"]
+                            }
+                        }
+                    },
+                    "required": ["sede"]
+                },
+                "clientes": {
+                    "type": "object",
+                    "properties": {
+                        "cliente": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "codigo": {"type": "string"},
+                                    "descCliente": {"type": "string"},
+                                    "num": {"type": "string"},
+                                    "vivienda": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {"type": "string"},
+                                                "coste": {"type": "string"},
+                                                "resumen": {"type": "string"},
+                                                "plazo": {"type": "string"}
+                                            },
+                                            "required": ["id", "coste", "resumen", "plazo"]
+                                        }
+                                    }
+                                },
+                                "required": ["codigo", "descCliente", "num", "vivienda"]
+                            }
+                        }
+                    },
+                    "required": ["cliente"]
+                }
+            },
+            "required": ["sedes", "clientes"]
+        }
+    },
+    "required": ["Gestoria"]
+}

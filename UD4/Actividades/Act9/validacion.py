@@ -6,60 +6,286 @@ schema = {
   "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "object",
     "properties": {
-      "BDsms": {
-        "type": "object",
-        "properties": {
-          "sms": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "telefono": {
-                  "type": "string"
-                },
-                "fecha": {
-                  "type": "string"
-                },
-                "hora": {
-                  "type": "string"
-                },
-                "mensaje": {
-                  "type": "string"
+        "Asignaturas": {
+            "type": "object",
+            "properties": {
+                "Asignatura": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "nombre_asignatura": {
+                                "type": "string"
+                            },
+                            "temas": {
+                                "type": "object",
+                                "properties": {
+                                    "tema": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "numero_tema": {
+                                                    "type": "string"
+                                                },
+                                                "titulo_tema": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": ["numero_tema", "titulo_tema"]
+                                        }
+                                    }
+                                },
+                                "required": ["tema"]
+                            }
+                        },
+                        "required": ["nombre_asignatura", "temas"]
+                    }
                 }
-              },
-              "required": ["telefono", "fecha", "hora", "mensaje"]
-            }
-          }
-        },
-        "required": ["sms"]
-      }
+            },
+            "required": ["Asignatura"]
+        }
     },
-    "required": ["BDsms"]
+    "required": ["Asignaturas"]
 }
 
 # Archivo JSON a validar
 archivo_json = '''
 {
-  "BDsms": {
-      "sms": [
+  "Asignaturas": {
+      "Asignatura": [
         {
-          "telefono": "955  55  66  55",
-          "fecha": "1/7/2011",
-          "hora": "23:55",
-          "mensaje": "Juego1: Tetris"
+          "nombre_asignatura": "Lengua",
+          "temas": {
+            "tema": [
+              {
+                "numero_tema": "tema1",
+                "titulo_tema": "Los niveles de la lengua"
+              },
+              {
+                "numero_tema": "tema2",
+                "titulo_tema": "Origen y desarrollo de la Lengua Española"
+              },
+              {
+                "numero_tema": "tema3",
+                "titulo_tema": "Situación lingüística de España. Lenguas y dialectos"
+              },
+              {
+                "numero_tema": "tema4",
+                "titulo_tema": "Variedad dialectal extremeña"
+              },
+              {
+                "numero_tema": "tema5",
+                "titulo_tema": "Características del español de América"
+              },
+              {
+                "numero_tema": "tema6",
+                "titulo_tema": "Procedimientos de creación de palabras"
+              }
+            ]
+          }
         },
         {
-          "telefono": "745  15  56  11",
-          "fecha": "22/9/2011",
-          "hora": "15:05",
-          "mensaje": "Juego2: Arkanoid"
+          "nombre_asignatura": "Matemáticas",
+          "temas": {
+            "tema": [
+              {
+                "numero_tema": "tema1",
+                "titulo_tema": "Matrices"
+              },
+              {
+                "numero_tema": "tema2",
+                "titulo_tema": "Inecuaciones y sistemas"
+              },
+              {
+                "numero_tema": "tema3",
+                "titulo_tema": "Determinantes"
+              },
+              {
+                "numero_tema": "tema4",
+                "titulo_tema": "Programación lineal"
+              }
+            ]
+          }
         },
         {
-          "telefono": "842  35  22  00",
-          "fecha": "10/11/2011",
-          "hora": "09:22",
-          "mensaje": "Juego3: Comecocos"
-        }
+            "nombre_asignatura": "Matemáticas",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Matrices"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Inecuaciones y sistemas"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Determinantes"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "Programación lineal"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "Matemáticas",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Matrices"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Inecuaciones y sistemas"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Determinantes"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "Programación lineal"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "Dibujo_Tecnico",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Trazados fundamentales en el plano"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Potencia, eje radical"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Polígonos. Triángulos"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "Equivalencias."
+                },
+                {
+                  "numero_tema": "tema5",
+                  "titulo_tema": "Homología y afinidad"
+                },
+                {
+                  "numero_tema": "tema6",
+                  "titulo_tema": "Inversión"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "TIC",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Definición y tipos de estructuras de almacenamiento"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Características de las principales estructuras de almacenamiento"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Aplicaciones de las estructuras de almacenamiento"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "Introducción a los lenguajes de programación"
+                },
+                {
+                  "numero_tema": "tema5",
+                  "titulo_tema": "Sintaxis y semántica"
+                },
+                {
+                  "numero_tema": "tema6",
+                  "titulo_tema": "Programación estructurada general"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "Historia de España",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Prehistoria en la Península Ibérica"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Imperio romano en la Península Ibérica"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Monarquía visigoda"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "Edad Media en España"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "Religion",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Antropología cristiana"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Doctrina social de la Iglesia"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Relación entre la razón, la ciencia y la fe"
+                },
+                {
+                  "numero_tema": "tema4",
+                  "titulo_tema": "La Iglesia generadora de cultura a lo largo de la historia"
+                },
+                {
+                  "numero_tema": "tema5",
+                  "titulo_tema": "La Biblia, la escritura sagrada"
+                }
+              ]
+            }
+          },
+          {
+            "nombre_asignatura": "Fisica",
+            "temas": {
+              "tema": [
+                {
+                  "numero_tema": "tema1",
+                  "titulo_tema": "Gravitación universal"
+                },
+                {
+                  "numero_tema": "tema2",
+                  "titulo_tema": "Movimiento armónico simple"
+                },
+                {
+                  "numero_tema": "tema3",
+                  "titulo_tema": "Movimiento ondulatorio"
+                }
+              ]
+            }
+          }
+    
       ]
     }
 }

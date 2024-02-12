@@ -1,0 +1,41 @@
+{
+    "Concesionario": {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:noNamespaceSchemaLocation": "Concesionario.xsd",
+      "Coche": [
+        {
+          "Cod_coche": "01",
+          "Marca": "Ferrari",
+          "Modelo": "812GTS",
+          "Matricula": "SC22  0",
+          "Potencia": "860",
+          "Num_puertas": "2"
+        },
+        {
+          "Cod_coche": "02",
+          "Marca": "Toyota",
+          "Modelo": "Corolla",
+          "Matricula": "AB12  3CD",
+          "Potencia": "100",
+          "Num_puertas": "4"
+        },
+        {
+          "Cod_coche": "03",
+          "Marca": "Audi",
+          "Modelo": "A3",
+          "Matricula": "EF45  6GH",
+          "Potencia": "140",
+          "Num_puertas": "5"
+        },
+        {
+          "Cod_coche": "04",
+          "Marca": "BMW",
+          "Modelo": "325d Berlina",
+          "Matricula": "IJ78  9KL",
+          "Potencia": "218",
+          "Num_puertas": "5"
+        }
+      ]
+    }
+  }
+  
