@@ -1,0 +1,68 @@
+{
+    "Modulos": {
+      "Modulo": [
+        {
+          "nombre": "Bases de Datos",
+          "contenidos": {
+            "UD": [
+              {"tipo": "UD1", "descripcion": "Almacenamiento de la información"},
+              {"tipo": "UD2", "descripcion": "Bases de Datos Relacionales"},
+              {"tipo": "UD3", "descripcion": "Modelos Entidad Relación"},
+              {"tipo": "UD4", "descripcion": "Transformación Modelo E/R al Modelo Relacional"},
+              {"tipo": "UD5", "descripcion": "Lenguaje SQL-DDL"},
+              {"tipo": "UD6", "descripcion": "Lenguaje SQL-DML"}
+            ]
+          }
+        },
+        {
+          "nombre": "Entornos de Desarrollo",
+          "contenidos": {
+            "UD": [
+              {"tipo": "UD1", "descripcion": "Desarrollo de software"},
+              {"tipo": "UD2", "descripcion": "Instalación y uso de entornos de desarrollo"},
+              {"tipo": "UD3", "descripcion": "Optimización y documentación"},
+              {"tipo": "UD4", "descripcion": "Depuración y realización de pruebas"}
+            ]
+          }
+        },
+        {
+            "nombre": "Formación y Orientación Laboral",
+            "contenidos": {
+              "UD": [
+                {"tipo": "UD1", "descripcion": "La prevención de riesgos, conceptos básicos"},
+                {"tipo": "UD2", "descripcion": "La prevención de riesgos. Legislación y Organización"},
+                {"tipo": "UD3", "descripcion": "Factores de riesgo y su prevención"},
+                {"tipo": "UD4", "descripcion": "Emergencias y primeros auxilios"},
+                {"tipo": "UD5", "descripcion": "Derecho del Trabajo"},
+                {"tipo": "UD6", "descripcion": "El Contrato de trabajo"}
+              ]
+            }
+          },
+          {
+            "nombre": "Lenguajes de marcas y sistemas de gestión de información",
+            "contenidos": {
+              "UD": [
+                {"tipo": "UD1", "descripcion": "Almacenamiento de la información"},
+                {"tipo": "UD2", "descripcion": "Lenguajes para la visualización de información"},
+                {"tipo": "UD3", "descripcion": "Lenguajes para el almacenamiento y transmisión de información"},
+                {"tipo": "UD4", "descripcion": "Definición de esquemas y vocabularios en XML"}
+              ]
+            }
+          },
+          {
+            "nombre": "Programación",
+            "contenidos": {
+              "UD": [
+                {"tipo": "UD1", "descripcion": "Introducción a la programación"},
+                {"tipo": "UD2", "descripcion": "Estructuras repetitivas"},
+                {"tipo": "UD3", "descripcion": "Estructura de datos I"},
+                {"tipo": "UD4", "descripcion": "Introducción a la POO"},
+                {"tipo": "UD5", "descripcion": "Clases. Continuación"}
+              ]
+            }
+          }
+
+      ]
+    }
+  }
+  

@@ -1,0 +1,54 @@
+{
+    "root": {
+        "@xmlns:ap1": "PrimerApellido",
+        "@xmlns:ap2": "SegundoApellido",
+        "películas": {
+            "película": [
+                {
+                    "@id": "1",
+                    "nombre": "El Padrino",
+                    "director": "Francis Ford Coppola",
+                    "tema": "Mafia",
+                    "fechaEstreno": "20/10/1972",
+                    "actores": {
+                        "actor": [
+                            {
+                                "ap1:apellido": "James",
+                                "ap2:apellido": "Pacino",
+                                "nombre": "Alfredo"
+                            },
+                            {
+                                "ap1:apellido": "Brando",
+                                "ap2:apellido": "Jr.",
+                                "nombre": "Marlon"
+                            }
+                        ]
+                    },
+                    "productora": "Paramount Pictures"
+                },
+                {
+                    "@id": "10",
+                    "nombre": "El Señor de los Anillos: la Comunidad del Anillo",
+                    "director": "Peter Jackson",
+                    "tema": "Fantasía",
+                    "fechaEstreno": "19/12/2001",
+                    "actores": {
+                        "actor": [
+                            {
+                                "ap1:apellido": "Jordan",
+                                "ap2:apellido": "Wood",
+                                "nombre": "Elijah"
+                            },
+                            {
+                                "ap1:apellido": "Mortensen",
+                                "ap2:apellido": "Jr.",
+                                "nombre": "Viggo Peter"
+                            }
+                        ]
+                    },
+                    "productora": "New Line Cinema"
+                }
+            ]
+        }
+    }
+}
