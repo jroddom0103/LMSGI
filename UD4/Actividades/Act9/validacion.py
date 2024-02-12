@@ -4,42 +4,64 @@ from jsonschema import validate
 # Definir el esquema
 schema = {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "nombre": {
-      "type": "string",
-      "minLength":  0
-    },
-    "edad": {
-      "type": "integer",
-      "minimum":  0
-    },
-    "hobbies": {
-      "type": "array",
-      "items": {
-        "type": "string"
+    "type": "object",
+    "properties": {
+      "BDsms": {
+        "type": "object",
+        "properties": {
+          "sms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "telefono": {
+                  "type": "string"
+                },
+                "fecha": {
+                  "type": "string"
+                },
+                "hora": {
+                  "type": "string"
+                },
+                "mensaje": {
+                  "type": "string"
+                }
+              },
+              "required": ["telefono", "fecha", "hora", "mensaje"]
+            }
+          }
+        },
+        "required": ["sms"]
       }
     },
-    "correo": {
-      "type": "string",
-      "format": "email"
-    },
-    "sexo": {
-      "type": "string",
-      "minLenght": 0
-    }
-  },
-  "required": ["nombre", "edad", "hobbies", "correo", "sexo"]
+    "required": ["BDsms"]
 }
 
 # Archivo JSON a validar
 archivo_json = '''
 {
-  "nombre": "Juan",
-  "edad":  25,
-  "hobbies": ["lectura", "ciclismo"],
-  "correo": "jroddom0103@g.educaand.es",
-  "sexo": ""
+  "BDsms": {
+      "sms": [
+        {
+          "telefono": "955  55  66  55",
+          "fecha": "1/7/2011",
+          "hora": "23:55",
+          "mensaje": "Juego1: Tetris"
+        },
+        {
+          "telefono": "745  15  56  11",
+          "fecha": "22/9/2011",
+          "hora": "15:05",
+          "mensaje": "Juego2: Arkanoid"
+        },
+        {
+          "telefono": "842  35  22  00",
+          "fecha": "10/11/2011",
+          "hora": "09:22",
+          "mensaje": "Juego3: Comecocos"
+        }
+      ]
+    }
 }
 '''
 
