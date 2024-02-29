@@ -43,7 +43,7 @@
         <autor>Nicolas Maquiavelo</autor>
         <editor>Dykinson</editor>
         <isbn>978-5211341219</isbn>
-        <precio>9.00</precio>
+        <precio>09.00</precio>
         <numPaginas>176</numPaginas>
     </libro>
 
@@ -56,4 +56,12 @@
         <numPaginas>144</numPaginas>
     </libro>
 
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <editor>Dykinson</editor>
+        <isbn>978-4921974901</isbn>
+        <precio>15.00</precio>
+        <numPaginas>160</numPaginas>
+    </libro>
 </libreria>
