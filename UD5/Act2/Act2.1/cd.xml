@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_p1.xsl"?>
+<cds>
+    <cd>
+        <tituloAlbum>Album1</tituloAlbum>
+        <artista>Artista1</artista>
+        <tituloCancion tiempo="123">Cancion1</tituloCancion>
+        <tituloCancion2 tiempo="209">Cancion2</tituloCancion2>
+        <selloDiscografico>Sello 1</selloDiscografico>
+        <añoPublicacion>2020</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album2</tituloAlbum>
+        <artista>Artista2</artista>
+        <tituloCancion tiempo="145">Cancion3</tituloCancion>
+        <tituloCancion2 tiempo="201">Cancion4</tituloCancion2>
+        <selloDiscografico>Sello 2</selloDiscografico>
+        <añoPublicacion>1987</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album3</tituloAlbum>
+        <artista>Artista1</artista>
+        <tituloCancion tiempo="159">Cancion5</tituloCancion>
+        <tituloCancion2 tiempo="146">Cancion6</tituloCancion2>
+        <selloDiscografico>Sello 3</selloDiscografico>
+        <añoPublicacion>1999</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album4</tituloAlbum>
+        <artista>Artista3</artista>
+        <tituloCancion tiempo="200">Cancion7</tituloCancion>
+        <tituloCancion2 tiempo="204">Cancion8</tituloCancion2>
+        <selloDiscografico>Sello 4</selloDiscografico>
+        <añoPublicacion>2003</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album5</tituloAlbum>
+        <artista>Artista4</artista>
+        <tituloCancion tiempo="180">Cancion9</tituloCancion>
+        <tituloCancion2 tiempo="193">Cancion10</tituloCancion2>
+        <selloDiscografico>Sello 5</selloDiscografico>
+        <añoPublicacion>2023</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album6</tituloAlbum>
+        <artista>Artista2</artista>
+        <tituloCancion tiempo="98">Cancion11</tituloCancion>
+        <tituloCancion2 tiempo="218">Cancion12</tituloCancion2>
+        <selloDiscografico>Sello 6</selloDiscografico>
+        <añoPublicacion>2017</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album7</tituloAlbum>
+        <artista>Artista3</artista>
+        <tituloCancion tiempo="121">Cancion13</tituloCancion>
+        <tituloCancion2 tiempo="171">Cancion14</tituloCancion2>
+        <selloDiscografico>Sello 7</selloDiscografico>
+        <añoPublicacion>2019</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album8</tituloAlbum>
+        <artista>Artista5</artista>
+        <tituloCancion tiempo="184">Cancion15</tituloCancion>
+        <tituloCancion2 tiempo="153">Cancion16</tituloCancion2>
+        <selloDiscografico>Sello 8</selloDiscografico>
+        <añoPublicacion>2012</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album9</tituloAlbum>
+        <artista>Artista6</artista>
+        <tituloCancion tiempo="199">Cancion17</tituloCancion>
+        <tituloCancion2 tiempo="263">Cancion18</tituloCancion2>
+        <selloDiscografico>Sello 9</selloDiscografico>
+        <añoPublicacion>1982</añoPublicacion>
+    </cd>
+    <cd>
+        <tituloAlbum>Album10</tituloAlbum>
+        <artista>Artista7</artista>
+        <tituloCancion tiempo="241">Cancion19</tituloCancion>
+        <tituloCancion2 tiempo="290">Cancion20</tituloCancion2>
+        <selloDiscografico>Sello 10</selloDiscografico>
+        <añoPublicacion>1967</añoPublicacion>
+    </cd>
+
+</cds>
