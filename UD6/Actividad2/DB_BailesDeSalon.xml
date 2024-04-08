@@ -1,1 +1,20 @@
-doc(DB_BailesDeSalon.xml)
+insert node
+<baile id='7'>
+ <nombre>Foxtro</nombre>
+ <precio cuota='mensual' moneda='dolares'>22</precio>
+ <plazas>12</plazas>
+ <comienzo>01/01/2012</comienzo>
+ <fin>31/07/2012</fin>
+ <profesor>'Freddy Astaire'</profesor>
+ <sala>3</sala>
+</baile>
+before doc('DB_BaileDeSalon.xml')//Bailes/baile[1]
+,
+replace value of node
+doc("DB_BailesDeSalon.xml")//Bailes/baile[1]/profesor
+with "Angel Correllada"
+,
+replace node 
+doc("DB_BailesDeSalon.xml")//Bailes/baile[1]/plazas
+with <plazas>14</plazas>
+
