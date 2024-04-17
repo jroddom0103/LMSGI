@@ -1,0 +1,4 @@
+for $ciclo in doc('C:\Users\jroddom0103\Downloads\clase2.xml')//fp/ciclos_informatica/ciclo
+where $ciclo/anyo>='2010'
+order by $ciclo/titulacion
+return $ciclo/titulacion

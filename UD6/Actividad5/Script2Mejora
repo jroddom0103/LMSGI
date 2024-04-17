@@ -1,0 +1,7 @@
+replace value of node
+doc('BD_Libros.xml')//Libros/libro[1]/Autores/autor/Cod_Autor
+with "Julio"
+, 
+replace node
+doc('BD_Libros.xml')//Libros/libro[1]/Autores/autor/Cod_Autor
+with <Cod_Autor>15</Cod_Autor>;

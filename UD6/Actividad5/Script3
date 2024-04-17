@@ -1,0 +1,1 @@
+delete node doc('BD_Libros.xml')//Libros/libro[Titulo='La vuelta al mundo en 80 días']

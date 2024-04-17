@@ -1,0 +1,21 @@
+insert node
+<libro>
+ <Cod_Libro>11</Cod_Libro>
+ <Titulo>La vuelta al mundo en 80 días</Titulo>
+ <Editorial>Vicens Vives</Editorial>
+ <Edicion>1</Edicion>
+ <ISBN>9788809877245</ISBN>
+ <NumPaginas>224</NumPaginas>
+ <Precio>DatoErróneo</Precio>
+ <Autores>
+  <autor>
+   <Cod_Autor>10</Cod_Autor>
+   <Nombre>Julio</Nombre>
+   <Apellidos>Verne</Apellidos>
+   <LugarNacimiento>Nantes</LugarNacimiento>
+   <FechaNacimiento>08/02/1828</FechaNacimiento>
+   <Nacionalidad>Francesa</Nacionalidad>
+  </autor>
+ </Autores>
+</libro> 
+before doc('BD_Libros.xml')//Libros/libro[1]

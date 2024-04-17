@@ -1,0 +1,7 @@
+replace value of node
+doc('BD_Libros.xml')//Libros/libro[1]/Precio
+with "DatoErróneo"
+, 
+replace node
+doc('BD_Libros.xml')//Libros/libro[1]/Precio
+with <precio>'28.99'</precio>;

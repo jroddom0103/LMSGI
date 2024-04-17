@@ -1,0 +1,17 @@
+for $ciclo in doc('C:\Users\jroddom0103\Downloads\clase2.xml')//fp/ciclos_informatica/ciclo
+
+<html>
+<body>
+<tr>
+<td>nombre</td>
+<td>legislacion</td>
+</tr>
+</body>
+</html>
+
+let $nombre := $ciclo/nombre
+let $legislacion := $ciclo/legislacion
+
+return 
+<td>data($nombre)</td>
+
